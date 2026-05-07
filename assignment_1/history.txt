@@ -1,0 +1,554 @@
+    1  /cita/local/bin/passwd
+    2  cd cita/local/bin
+    3  cd cita
+    4  ls
+    5  ls -l
+    6  ls -a
+    7  cosmo4.cita.utoronto.ca:6
+    8  prawn
+    9  git clone https://github.com/CITA/CTA200H.gi
+   10  git clone https://github.com/CITA/CTA200H.git
+   11  module avail
+   12  vncserver
+   13  lobster$ vncserver -kill :1
+   14  vncserver -kill :1
+   15  exit
+   16  logout
+   17  /cita/local/bin/passwd
+   18  /cita
+   19  ls
+   20  cd /cita
+   21  ls
+   22  cd local
+   23  clear
+   24  ls
+   25  cd bin
+   26  cd passwd
+   27  cd ls
+   28  ls
+   29  cd passwd
+   30  cd cl
+   31  cd message
+   32  clear
+   33  passwd
+   34  passwd -S asalil
+   35  chage -l asalil
+   36  mount | grep " / "
+   37  ls -la /etc/shadow
+   38  lsattr /etc/shadow
+   39  passwd -S asalil
+   40  getent passwd asalil
+   41  clear
+   42  cd ..
+   43  ls
+   44  cd ...
+   45  cd ..
+   46  ls
+   47  cd cita
+   48  cd ..
+   49  /cita/local/bin/passwd
+   50  cd cita/local/bin
+   51  passwd
+   52  cd cita/local/bin
+   53  ls
+   54  mkdir
+   55  ls
+   56  cd Documents
+   57  pushd
+   58  pwd
+   59  mkdir aniketh's puppies
+   60  puppy.txt
+   61  nano puppy.txt
+   62  cd ..
+   63  ls
+   64  cd aniketh's puppies
+   65  ls
+   66  ls
+   67  ls -a
+   68  pwd
+   69  ls
+   70  clear
+   71  ls
+   72  cd /fs/lustre/scratch/USERNAME
+   73  ls
+   74  cd fs/lustre/scratch/asalil
+   75  cd CTA200H
+   76  ls
+   77  ls -a
+   78  vi README.md
+   79  cd CTA200H
+   80  ls
+   81  git clone https://github.com/anisalil10/CTA200H.git
+   82  cd ..
+   83  ls
+   84  git clone https://github.com/anisalil10/CTA200H.git
+   85  cd CTA200H
+   86  ls
+   87  vi README.md
+   88  git add README.md
+   89  git commit -m "testinggg"
+   90  git push
+   91  git push origin main
+   92  git push origin master
+   93  git push
+   94  ssh-keygen -t ed25519 -C "your_email@example.com"
+   95  ssh-keygen -t ed25519 -C "aniketh.salil@mail.utoronto.ca"
+   96  cat ~/.ssh/id_ed25519.pub
+   97  ls
+   98  cd..
+   99  cd ..
+  100  ls
+  101  ls -a
+  102  cd CTA200H
+  103  ssh -T git@github.com
+  104  eval "$(ssh-agent -s)"
+  105  ssh-add ~/CTA200H/dsdc
+  106  cd ~/CTA200H
+  107  git remote set-url origin git@github.com:anisalil10/REPO_NAME.git
+  108  git remote set-url origin git@github.com:anisalil10/CTA200H.git
+  109  git push origin
+  110  git push
+  111  git add
+  112  ls
+  113  vi README.md
+  114  git commit -m "update test"
+  115  git pull
+  116  cd ..
+  117  git pull
+  118  ls
+  119  eval "$(ssh-agent -s)"
+  120  ssh-add ~/CTA200H/dsdc
+  121  nano ~/.ssh/config
+  122  ssh -T git@github.com
+  123  cd CTA200H
+  124  /cita/local/bin/passwd
+  125  ssh cosmo1
+  126  ssh cosmo9
+  127  cd fs/lustre/scratch/asalil
+  128  /fs/lustre/scratch/USERNAME
+  129  /fs/lustre/scratch/asalil
+  130  ls
+  131  cd CTA200H
+  132  ls
+  133  cd assignments
+  134  ls
+  135  cd ..
+  136  ls
+  137  cd fs
+  138  cd /fs
+  139  cd asalil
+  140  ssh cosmo8
+  141  cd /fs/lustre/scratch/asalil
+  142  ls
+  143  cd CTA200H
+  144  ls
+  145  git push
+  146  nano passkey
+  147  nano passkey.pub
+  148  ls ~/.ssh
+  149  cat ~/.ssh/id_ed25519.pub
+  150  eval "$(ssh-agent -s)"
+  151  ssh-add ~/.ssh/id_ed25519
+  152  ssh -T git@github.com
+  153  git remote -v
+  154  git remote set-url origin git@github.com:anisalil10/repo.git
+  155  git push origin master
+  156  git branch
+  157  git push origin master
+  158  ssh -T git@github.com
+  159  cd CTA200H
+  160  ssh -T git@github.com
+  161  ssh cosmo8
+  162  ssh-keygen -t ed25519 -C "aniketh.salil@mail.utoronto.ca"
+  163  cat ~/.ssh/id_ed25519.pub
+  164  ssh -T git@github.com
+  165  eval "$(ssh-agent -s)"
+  166  ssh-add ~/.ssh/id_ed25519
+  167  ssh -T git@github.com
+  168  git remote -v
+  169  ls
+  170  cd CTA200H
+  171  git push origin main
+  172  git push origin master
+  173  git remote -v
+  174  git remote set-url origin git@github.com:anisalil10/repo.git
+  175  git remote -v
+  176  git remote set-url origin git@github.com:anisalil10/CTA200H.git
+  177  git remote -v
+  178  git push origin master
+  179  git status
+  180  ssh -L 2910:localhost:2910 asalil@gw.cita.utoronto.ca
+  181  $ ssh -L 2910:localhost:2910 cosmo8
+  182  ssh -L 2910:localhost:2910 cosmo8
+  183  module load python/3.10.2
+  184  jupyter notebook --port=2910 --no-browser
+  185  module load python/3.10.2
+  186  jupyter notebook --port=2910 --no-browser
+  187  ssh -N -L 2911:localhost:2911 asalil@cosmo8.cita.utoronto.ca
+  188  jupyter notebook --port=2910 --no-browser
+  189  ssh -L 9897:localhost:9897 cosmo6
+  190  module load python/3.10.2
+  191  jupyter notebook --9897=xxxx --no-browser
+  192  jupyter notebook --port=9897 --no-browser
+  193  cd CTA200H
+  194  ls
+  195  git add assignment_2
+  196  git commit -m "completed assignment 2"
+  197  git push
+  198  git remote -v
+  199  git push origin master
+  200  ssh cosmo8
+  201  cd CTA200H
+  202  ls
+  203  git add assignment_2
+  204  git commit -m "finished assignment 2"
+  205  git push origin master
+  206  ssh-add -l
+  207  ssh-add ~/path/to/passkey
+  208  ssh-add ~/path/to/dsdc
+  209  eval "$(ssh-agent -s)"
+  210  ssh-add ~/.ssh/id_ed25519
+  211  ssh -T git@github.com
+  212  git remote set-url origin git@github.com:anisalil10/CTA200H.git
+  213  git remote -v
+  214  git push origin master
+  215  cd ..
+  216  ls
+  217  mkdir CTA00_2025
+  218  ls
+  219  cd CTA200_2025
+  220  rm -r CTA00_2025
+  221  mkdir CTA200_2025
+  222  cd CTA200_2025
+  223  git clone https://github.com/anisalil10/CTA200H_aniketh.git
+  224  ssh -N -L 9897:localhost:9897 asalil@cosmo8.cita.utoronto.ca
+  225  ssh cosmo8
+  226  cd CTA200_2025
+  227  ls
+  228  cd CTA200H_aniketh
+  229  cd ..
+  230  module load python/3.10.2
+  231  jupyter notebook --port=9897 --no-browser
+  232  ls
+  233  cd CTA200H_aniketh
+  234  jupyter notebook --port=9897 --no-browser
+  235  module load python/3.10.2
+  236  ssh cosmo8
+  237  module load python/3.10.2
+  238  jupyter notebook --port=1010 --no-browser
+  239  module load python/3.10.2
+  240  jupyter notebook --port=1010 --no-browser
+  241  jupyter notebook --port=1053 --no-browser
+  242  module load python/3.10.2
+  243  ssh cosmo8
+  244  module load python/3.10.2
+  245  jupyter notebook --port=1053 --no-browser
+  246  module load python/3.10.2
+  247  ssh cosmo8
+  248  module load python/3.10.2
+  249  jupyter notebook --port=8129 --no-browser
+  250  ssh cosmo8
+  251  ls
+  252  cd CTA200_2025
+  253  ls
+  254  cd CTA200H_aniketh
+  255  ls
+  256  git add assignment_2
+  257  git commit -m "Completed assignment 2 FINAL"
+  258  ls ~/.ssh
+  259  cat ~/.ssh/id_ed25519.pub
+  260  git remote -v
+  261  git remote set-url origin git@github.com:anisalil10/CTA200H_aniketh.git
+  262  git push origin main
+  263  eval "$(ssh-agent -s)"
+  264  ssh-add ~/.ssh/id_ed25519
+  265  git remote -v
+  266  git remote set-url origin git@github.com:anisalil10/CTA200H_aniketh.git
+  267  git push origin master
+  268  git push origin
+  269  git push
+  270  ls
+  271  cd assignment_2
+  272  ls
+  273  git add assignment.ipynb
+  274  git commit -m "finished ass 3 FINAL FINAL"
+  275  git push
+  276  git config --global push.default simple
+  277  git push
+  278  ssh -L 9897:localhost:9897 cosmo8
+  279  module load python/3.10.2
+  280  jupyter notebook --port=9897 --no-browser
+  281  /fs/lustre/scratch/asalil
+  282  cd fs/lustre/scratch/asalil
+  283  cd /fs/lustre/scratch/asalil
+  284  ls
+  285  cd ..
+  286  ls
+  287  cd hsoni
+  288  mkdir hbitchh
+  289  cd ..
+  290  cd asalil
+  291  mkdir hii
+  292  rm -r hii
+  293  cd ..
+  294  ls
+  295  cd asalil
+  296  mkdir CTA200_2025
+  297  git clone https://github.com/anisalil10/CTA200H_aniketh.git
+  298  ls
+  299  rm -f CTA200H_aniketh
+  300  rm -r CTA200H_aniketh
+  301  rm -rf CTA200H_aniketh
+  302  ls
+  303  cd CTA200_2025
+  304  git clone https://github.com/anisalil10/CTA200H_aniketh.git
+  305  ls
+  306  cd CTA200H_aniketh
+  307  ls
+  308  ls ~/.ssh
+  309  ls -a
+  310  cd .git
+  311  ls
+  312  cd ..
+  313  ls
+  314  ssh -T git@github.com
+  315  ssh-add ~/.ssh/id_ed25519
+  316  eval "$(ssh-agent -s)"
+  317  ssh-add ~/.ssh/id_ed25519
+  318  ssh -T git@github.com
+  319  git remote -v
+  320  git remote set-url origin git@github.com:anisalil10/CTA200H_aniketh.git
+  321  git pull
+  322  git push origin master
+  323  git push origin
+  324  git push origin main
+  325  ls
+  326  cd assignment_2
+  327  cd ..
+  328  mkdir assignment_1
+  329  ls
+  330  git add assignment_1
+  331  git commit -m "Added assignment_! directory"
+  332  git push
+  333  git commit -m "Added assignment_1 directory"
+  334  git add assignment_1
+  335  git commit -m "Added assignment_1 directory"
+  336  git pull
+  337  ls
+  338  nano README.md
+  339  vi README.md
+  340  git add README.md
+  341  git commit -m "Edited Readme"
+  342  git push
+  343  cd ..
+  344  cd ../..
+  345  ls
+  346  cd hsoni
+  347  ls
+  348  cd CTA200H
+  349  ls
+  350  cd ..
+  351  cd CTA200_2025
+  352  ls
+  353  cd Hetvi_CTA200_rep
+  354  ls
+  355  cd ..
+  356  ls
+  357  cd ..
+  358  ls
+  359  cd gchoudhry
+  360  ls
+  361  cd CTA200_2026
+  362  ls
+  363  cd ..
+  364  ls
+  365  cd asalil
+  366  ls
+  367  cd CTA200_2025
+  368  ls
+  369  cd CTA200H_aniketh
+  370  cd ~/murray
+  371  cd ..
+  372  ls
+  373  cd ..
+  374  ls
+  375  cd murray
+  376  ls
+  377  cd ~/Hello_world.c
+  378  ls
+  379  cd repos
+  380  ls
+  381  cd ..
+  382  cd src
+  383  ls
+  384  cd ..
+  385  cd test
+  386  ls
+  387  cd ..
+  388  ls
+  389  cd tmp
+  390  ls
+  391  cd test
+  392  ls
+  393  cd ..
+  394  ls
+  395  cd scratch-3month
+  396  ls
+  397  cd ..
+  398  ls
+  399  find ~ -name "Hello_world.c"
+  400  find ~/Pictures ~/bin ~/repos ~/scratch-2month ~/scratch-3month ~/src ~/test ~/tmp -name "Hello_world.c"
+  401  cd /fs/lustre/scratch/murray
+  402  ls
+  403  ls -a
+  404  cd ..
+  405  ls
+  406  cd murray
+  407  ls
+  408  ls -a
+  409  cd ..
+  410  ssh cosmo3
+  411  ssh asalil@cosmo7.cita.utoronto.ca
+  412  ls
+  413  cd /fs/lustre/scratch/USERNAME
+  414  cd ..
+  415  ls
+  416  cd /fs/lustre/scratch/USERNAME
+  417  cd ..
+  418  cd /fs/lustre/scratch/USERNAME
+  419  cd ..
+  420  cd /fs/lustre/scratch/USERNAME
+  421  ls
+  422  cd /fs/lustre/scratch/USERNAME
+  423  cd fs/lustre/scratch/USERNAME
+  424  cd fs
+  425  ls]
+  426  ls
+  427  cd lustre
+  428  cd scratch
+  429  ls
+  430  cd murray
+  431  ls
+  432  git pull
+  433  cd /fs/lustre/scratch/asalil
+  434  ls
+  435  cd ..
+  436  cd murray
+  437  ls
+  438  cd .. .. .. ..
+  439  cd ..
+  440  ls
+  441  cd ..
+  442  ls
+  443  cd fs
+  444  ls
+  445  cd ..
+  446  ls
+  447  cd home
+  448  ls
+  449  cd murray
+  450  ls
+  451  find ~ -name "Hello_world.c"
+  452  ls
+  453  cd ..
+  454  ls
+  455  cd asalil
+  456  ls
+  457  cd ..
+  458  cd murray
+  459  ls
+  460  find ~ -name "Hello_world.c"
+  461  find . -name "Hello_world.c"
+  462  cd ./Papers/tmp/Hello_world.c
+  463  Papers/tmp/Hello_world.c
+  464  cd Papers/tmp
+  465  ls
+  466  cp Hello_world.c
+  467  cp Hello_world.c ~//fs/lustre/scratch/asalil/CTA200_2025
+  468  cp Hello_world.c ~//fs/lustre/scratch/asalil
+  469  cp Hello_world.c ~/fs/lustre/scratch/asalil
+  470  cp Hello_world.c /home/fs/lustre/scratch/asalil'
+Hello_world.c
+
+  471  ls
+  472  pwd
+  473  cd /home
+  474  ls
+  475  cd ..
+  476  ls
+  477  cd /home/murray/Papers/tmp
+  478  ls
+  479  cp Hello_world.c /fs/lustre/scratch/asalil/CTA200_2025/CTA200H_2025/assignment_1
+  480  cp Hello_world.c /fs/lustre/scratch/asalil
+  481  cd home
+  482  cd /home
+  483  ls
+  484  cd ..
+  485  ls
+  486  cd /fs/lustre/scratch/asalil
+  487  ls
+  488  mv Hello_word.c CTA200_2025/CTA200H_aniketh
+  489  mv Hello_world.c CTA200_2025/CTA200H_aniketh
+  490  ls
+  491  cd CTA200_2025
+  492  ls
+  493  cd 
+  494  cd CTA200H_aniketh
+  495  cd CTA200_2025
+  496  cd CTA200H_aniketh
+  497  ls
+  498  cd ..
+  499  find . -name "Hello_world.c"
+  500  ls
+  501  cd ..
+  502  ls
+  503  cd /fs/lustre/scratch/asalil
+  504  ls
+  505  cd CTA200_2025
+  506  ls
+  507  cd CTA200H_aniketh
+  508  ls
+  509  mv Hello_world.c assignment_1
+  510  ls
+  511  cd assignment_1
+  512  ls
+  513  mv Hello_world.c Hello_world_salil.c
+  514  ls
+  515  cd /home/murray
+  516  ls
+  517  find . -name "Hello_world.py"
+  518  cd tmp/Hello_world.py
+  519  cd tmp
+  520  ls
+  521  cp Hello_world.py /fs/lustre/scratch/asalil/CTA200_2025/CTA200H_aniketh/assignment_1
+  522  cd /fs/lustre/scratch/asalil/CTA200_2025/CTA200H_aniketh/assignment_1
+  523  ls
+  524  cd ..
+  525  ls
+  526  git add assignment_1
+  527  cd assignment_1
+  528  ls
+  529  mv Hello_world.py Hello_world_salil.py
+  530  ls
+  531  load gcc
+  532  gcc Hello_world_salil.c
+  533  gcc Hello_world_salil.c -o Hello_world.x
+  534  ls
+  535  rm a.out
+  536  vi Hello_world_salil.c
+  537  vi Hello_world_salil.py
+  538  nano Hello_world_salil.py
+  539  vi Hello_world_salil.py
+  540* gcc Hello_world_salil.c | output_c.tx
+  541  ./Hello_world.x > output_c.txt
+  542  vi output_c.txt
+  543  python3 Hello_world.py > output_python.txt
+  544  python3 Hello_world_salil.py > output_python.txt
+  545  vi output_python.txt
+  546  vi output_c.txt
+  547  vi Hello_world_salil.c
+  548  gcc Hello_world_salil.c -o Hello_world.x
+  549  ./Hello_world.x > output_c.txt
+  550  vi output_c.txt
+  551  history 
+  552  history > history.txt
